@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:"Nunito", sans-serif;
+}
+:root{
+    --main-color:#17a2b8;
+}
+
+.nav-link:hover{
+background-color:#17a2b8;
+
+}
+.header{
+    display: flex;justify-content: space-between;
+}
+ nav .h{
+    color: #17a2b8;
+}
+.header{
+   background-color:#17a2b8;
+   color:#fff;
+}
+.header-left{
+   margin-bottom: 200px;
+}
+.header h1,h4{
+    font-family: Handlee, cursive;
+    font-size: 40px;
+    
+}
+.header h1{
+    font-size: 70px;margin-top: 20px;
+}
+.header .header-left{
+    margin-top: 300px;
+}
+.header .header-left .btn{
+    border: none;
+    padding: 2px,5px;
+    background-color: #00394f;
+    border-radius: 30px;
+    font-size: 25px;
+    color: white;
+}
+.header .header-left .btn:hover{
+    background-color: black;
+}
+.container{
+    width: 90%;
+    margin: 100px auto;
+}
+.flat{
+    display: flex;justify-content: space-between;gap: 20px;margin-bottom: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 30px;
+}
+.flat .i{
+    font-size: 35px;
+}
+.flat .p{
+    font-family: Handlee, cursive;
+    font-size: 30px;
+}
+.letter{
+    margin-top: 20px ;
+    font-weight: bold;
+    color: #17a2b8;
+}
+.about .p{
+    font-family: Handlee, cursive;
+    font-size:35px;
+}
+.list-inline i{
+    margin-right: 10px;
+    color:#17a2b8
+}
+.bttn{
+    border: none;
+    padding:10px;
+    font-size: 25px;
+    border-radius: 30px;
+    color:#fff;
+    background-color: #17a2b8;
+    margin-top: 50px;
+}
+.text{    
+    color: var(--main-color);
+    font-size: 25px;
+    text-align: center;
+}
+.popular .p{
+    font-family: Handlee, cursive;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.card-title{
+    font-family: Handlee, cursive;
+
+}
+.text1{
+    font-size:20px ;
+}
+.btttn{
+    border:none;
+    font-size: 20px;
+    border-radius: 30px;
+    color:#fff;
+    background-color:  var(--main-color);
+    margin-bottom: 20px;
+}
+.iconsss{
+    gap: 5px;
+}
+.iconsss i{
+    text-align: center;
+    align-items: center;
+    color:green
+}
+.see b{
+    font-size: 20px;
+    font-weight: normal;
+    color:  var(--main-color);
+    margin-bottom: 10px;
+}
+.see .seat{
+    font-family: Handlee, cursive;
+    font-size: 25px;
+}
+.see form{
+    background-color:  var(--main-color);
+}
+.see form input{
+    width: 80%;
+    align-items: center;
+    margin: 7px 50px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+}
+.custom-select{
+    width: 80%;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    margin: 7px 50px;
+    padding: 10px;
+}
+.see form .p1{
+    font-family: Handlee, cursive;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.header-form{
+    background-color: #00394f;
+    
+}
+.see .bttttn{
+    color: #fff;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    background-color: #00394f;
+    align-items: center;
+    margin: 7px 50px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.see form{
+    height: auto;
+    border: none;
+}
+.see form input::placeholder{
+    padding: 30px;
+    margin: 30px;
+}
+.teacher .p{
+    font-family: Handlee, cursive;
+    text-align: center;
+    font-size: 25px;
+
+}
+.pictures .imagee{
+    border-radius: 50%;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+
+.teacher .text2{
+    align-items: center;
+    text-align:center;
+}
+.teacher .links{
+    text-align: center;
+    font-size: 25px;
+    border: #fff;
+   
+    bottom: 50%;
+    right: 20%;
+   
+}
+
+.teacher .links i{
+  color: #fff;
+  border-radius: 50%;
+  margin: 10px;
+  border:2px solid #fff;
+  padding: 5px;
+  padding: 10px;
+  background-color:  var(--main-color);
+}
+.teacher .links i:hover{
+    color: black;
+}
+.teacher .card:hover{
+    background-color:  var(--main-color);
+
+}
+.testimonial-item h3{
+    color:  var(--main-color);
+}
+
+.testimonial .p{
+    font-family: Handlee, cursive;
+    text-align: center;
+    font-size: 25px;
+
+}
+.blogs .p{
+    font-family: Handlee, cursive;
+    text-align: center;
+    font-size: 25px;
+}
+.div1{
+    gap: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+.blog img{
+    width: 100%;
+}
+.div1 i{
+    color:  var(--main-color);
+margin-right: 5px;
+}
+.blogs .bttn{
+    width: fit-content;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 30%;
+}
+.blogs .card{
+    border: 2px;
+}
+footer{
+    background-color: #00394f;
+}
+footer .Links i{
+    font-size: 25px;
+    margin-right: 10px;
+    color:  var(--main-color);
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid var(--main-color);
+    margin-bottom: 30px;
+}
+.part2 .p{
+    font-family: Handlee, cursive;
+    font-size: 25px;
+    color:  var(--main-color);
+
+}
+.part2 .pp{
+    text-align: start;
+    margin-bottom: 30px;
+}
+.part2 .span{
+    font-family: Handlee, cursive;
+    font-size: 25px;
+}
+.part2 span{
+    font-size: 25px;
+}
+.part2 .pp i{
+    color:  var(--main-color);
+    font-size: 20px;
+    margin-right: 10px;
+}
+.part3 .p{
+    font-family: Handlee, cursive;
+    font-size: 25px;
+    color:  var(--main-color);
+}
+.part3 .pp .aa{
+ margin-left: 5px;
+ text-decoration: none;
+ font-size: 20px;
+}
+.part3 .pp .aa:hover{
+    text-decoration:underline;
+}
+.part4 .p{
+    font-family: Handlee, cursive;
+    font-size: 25px;
+    color:  var(--main-color);
+}
+.part4 input{
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    border-radius: 10px;
+}
+.part4 input::placeholder{
+    font-size: 17px;
+}
+.part4 .buttn{
+    border: none;
+    padding:10px;
+    font-size: 25px;
+    border-radius: 30px;
+    color:#fff;
+    background-color: #17a2b8;
+    margin-top: 10px;
+    padding: 10px 50px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.contact .p{
+    font-family: Handlee, cursive;
+    text-align: center;
+    font-size: 35px;
+
+}
+.form1 input{
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #17a2b8;
+}
+.form1 textarea{
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #17a2b8;
+}
+.form1 .button1{
+    background-color: #17a2b8;
+    padding: 5px;
+    width: 30%;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.div2 .pp .span{
+    font-family: Handlee, cursive;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.div2 .pp i{
+    padding: 10px;
+    border: 2px solid #17a2b8;
+    border-radius: 50%;
+    background-color: #17a2b8;
+
+}
+.buttoon{
+    text-align: center;  
+}
+.button2{
+    color: #17a2b8;
+    border:none;
+    border-radius: 20px;
+    background-color: #fff;
+    border:2px solid #17a2b8;
+    padding: 5px 10px;
+}
+.button3{
+    color: #17a2b8;
+    border:none;
+    border-radius: 20px;
+    background-color: #fff;
+    border:2px solid #17a2b8;
+    padding: 5px 10px;
+}
+.button4{
+    color: #17a2b8;
+    border:none;
+    border-radius: 20px;
+    background-color: #fff;
+    border:2px solid #17a2b8;
+    padding: 5px 10px;
+}
+.buttoon1{
+    color: #17a2b8;
+    border:none;
+    border-radius: 20px;
+    background-color: #fff;
+    border:2px solid #17a2b8;
+    padding: 5px 10px;
+}
+     
+.active:hover{
+    background-color: #17a2b8;
+    color: #fff;
+
+}
+.button2:hover{
+    background-color: #17a2b8;
+    color: #fff;
+
+}
+.button3:hover{
+    background-color: #17a2b8;
+    color: #fff;
+
+}
+.button4:hover{
+    background-color: #17a2b8;
+    color: #fff;
+
+}
+.image1{margin-right: 5px;
+    margin-bottom: 5px;
+}
+.image2{margin-right: 5px;
+    margin-bottom: 5px;
+}
+.image3{margin-right: 5px;
+    margin-bottom: 5px;
+}
+.image4{margin-right: 5px;
+    margin-bottom: 5px;
+}
+.image5{margin-right: 5px;
+    margin-bottom: 5px;
+}
+.image6{margin-right: 5px;
+    margin-bottom: 5px;
+}
+.gallery{
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.gallery1 .p{
+    font-family: Handlee, cursive;
+    text-align: center;
+    font-size: 25px;
+
+}
+@media screen and (max-width : 480px){
+    .header-right img{
+        width: 100%;
+    }
+    .header .header-left{
+        margin-top: 20px;
+    }
+    .header{
+        width: 100%;
+    }
+    .about{
+        width: 100%;
+    }
+    .about-left img{
+        width: 100%;
+    }
+  .bttn{
+    margin-bottom: 30px;
+  }
+  .see{
+    width: 100%;
+  }
+  .classes{
+    width: 100%;
+  }
+  .see .book{
+    width: 90%;
+  }
+  .ppp{width: 70%;}
+  .card{
+    width: 100%;
+  }
+  .book p{width: 100%;}
+  .see .form{
+    width: 90%;
+  }
+}
